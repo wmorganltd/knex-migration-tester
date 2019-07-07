@@ -1,0 +1,28 @@
+{
+  "name": "knex-migration-tester",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmorganltd/knex-migration-tester.git"
+  },
+  "author": "@willmorgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmorganltd/knex-migration-tester/issues"
+  },
+  "homepage": "https://github.com/wmorganltd/knex-migration-tester#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "diff": "^4.0.1",
+    "knex": "^0.18.3",
+    "knex-migrate": "^1.7.2",
+    "mocha": "^6.1.4",
+    "mocha-junit-reporter": "^1.23.0",
+    "mssql": "^5.1.0"
+  }
+}
