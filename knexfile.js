@@ -17,7 +17,7 @@ module.exports = {
         migrations: {
             tableName: 'migrations',
             directory: 'migrations',
-            stub: './migrations-support/js.stub',
+            stub: './migrations-support/stub.js',
         },
     },
 };
